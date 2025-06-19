@@ -1,18 +1,20 @@
 {
   "name": "softtek_lighthouse",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "Automatización de lighthouse",
   "main": "src/main.ts",
   "type": "module",
   "scripts": {
     "prepare": "husky",
     "format": "prettier --write ./src",
-    "lint": "eslint --fix ./src "
+    "lint": "eslint --fix ./src ",
+    "release": "commit-and-tag-version"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@eslint/js": "^9.29.0",
+    "commit-and-tag-version": "^12.5.1",
     "eslint": "^9.29.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.5.0",
