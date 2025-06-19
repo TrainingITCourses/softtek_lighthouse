@@ -10,4 +10,5 @@ npm i -D husky
 npm i -D prettier@latest
 npm init @eslint/config@latest
 npm i -D eslint-config-prettier eslint-plugin-prettier
+npm i -D commit-and-tag-version
 ```
