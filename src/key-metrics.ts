@@ -8,7 +8,7 @@ type AuditName =
 const auditNames: AuditName[] = [
   "first-contentful-paint",
   "largest-contentful-paint",
-  "interactive",
+  // "interactive",
   "speed-index",
   "total-blocking-time",
 ];
