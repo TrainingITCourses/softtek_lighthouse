@@ -15,4 +15,8 @@ npm i -D commit-and-tag-version
 
 npm i puppeteer
 npm i lighthouse
+
+npm i -D jest@latest
+npm i -D ts-jest@latest
+npm i -D @types/jest
 ```
