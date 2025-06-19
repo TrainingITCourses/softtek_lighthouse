@@ -48,5 +48,6 @@ const runAudit = async (targetUrl: string) => {
   fs.writeFileSync("tmp/my-report.json", JSON.stringify(lhrJson, null, 2));
   await browser.close();
 };
-console.log("Hello, world!");
-runAudit("https://albertobasalo.dev");
+const url = process.argv[2];
+console.log("Auditing " + url);
+runAudit(url);
