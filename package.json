@@ -5,6 +5,7 @@
   "main": "src/main.ts",
   "type": "module",
   "scripts": {
+    "start": "node src/main.ts",
     "prepare": "husky",
     "format": "prettier --write ./src",
     "lint": "eslint --fix ./src ",
@@ -22,5 +23,9 @@
     "husky": "^9.1.7",
     "prettier": "^3.5.3",
     "typescript-eslint": "^8.34.1"
+  },
+  "dependencies": {
+    "lighthouse": "^12.6.1",
+    "puppeteer": "^24.10.2"
   }
 }
