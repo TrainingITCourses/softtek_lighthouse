@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node src/main.ts",
     "test": "jest",
-    "test:changed": "jest --onlyChanged",
+    "test:changed": "jest --onlyChanged --lastCommit",
     "prepare": "husky",
     "format": "prettier --write ./src",
     "lint": "eslint --fix ./src ",
